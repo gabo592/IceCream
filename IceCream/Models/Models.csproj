@@ -61,6 +61,7 @@
     <Compile Include="Interfaces\IPerson.cs" />
     <Compile Include="Interfaces\ISecurity.cs" />
     <Compile Include="Interfaces\ITransactionDetail.cs" />
+    <Compile Include="Inventario\CategoriaProducto.cs" />
     <Compile Include="Inventario\DetalleProducto.cs" />
     <Compile Include="Inventario\MateriaPrima.cs" />
     <Compile Include="Inventario\Producto.cs" />

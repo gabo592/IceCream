@@ -59,5 +59,167 @@ namespace Common.Resources {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La Cantidad ingresada contiene valores no permitidos por el sistema..
+        /// </summary>
+        internal static string CANTIDAD_INCORRECTA {
+            get {
+                return ResourceManager.GetString("CANTIDAD_INCORRECTA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La clave o contraseña no puede estar en blanco..
+        /// </summary>
+        internal static string CLAVE_VACIA {
+            get {
+                return ResourceManager.GetString("CLAVE_VACIA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El Descuento ingresado contiene valores no permitidos por el sistema..
+        /// </summary>
+        internal static string DESCUENTO_INCORRECTO {
+            get {
+                return ResourceManager.GetString("DESCUENTO_INCORRECTO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a No es posible realizar la operación ya que el modelo está inactivo..
+        /// </summary>
+        internal static string ESTADO_INACTIVO {
+            get {
+                return ResourceManager.GetString("ESTADO_INACTIVO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El campo &quot;Fecha&quot; posee un valor no admitido por el sistema..
+        /// </summary>
+        internal static string FECHA_DEFAULT {
+            get {
+                return ResourceManager.GetString("FECHA_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El ID del modelo posee un valor no admitido por el sistema..
+        /// </summary>
+        internal static string ID_DEFAULT {
+            get {
+                return ResourceManager.GetString("ID_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El ID del Empleado posee un valor no admitido por el sistema..
+        /// </summary>
+        internal static string ID_EMPLEADO_DEFAULT {
+            get {
+                return ResourceManager.GetString("ID_EMPLEADO_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La clave o contraseña ingresada es muy corta..
+        /// </summary>
+        internal static string LONGITUD_CLAVE_CORTA {
+            get {
+                return ResourceManager.GetString("LONGITUD_CLAVE_CORTA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La cantidad de caracteres para la Dirección excede la permitida (500)..
+        /// </summary>
+        internal static string LONGITUD_DIRECCION_EXCEDIDA {
+            get {
+                return ResourceManager.GetString("LONGITUD_DIRECCION_EXCEDIDA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La cantidad de caracteres para el Primer Apellido excede la permitida (50)..
+        /// </summary>
+        internal static string LONGITUD_PRIMER_APELLIDO_EXCEDIDA {
+            get {
+                return ResourceManager.GetString("LONGITUD_PRIMER_APELLIDO_EXCEDIDA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La cantidad de caracteres para el Primer Nombre excede la permitida (50). .
+        /// </summary>
+        internal static string LONGITUD_PRIMER_NOMBRE_EXCEDIDA {
+            get {
+                return ResourceManager.GetString("LONGITUD_PRIMER_NOMBRE_EXCEDIDA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La cantidad de caracteres para el Segundo Apellido excede la permitida (50)..
+        /// </summary>
+        internal static string LONGITUD_SEGUNDO_APELLIDO_EXCEDIDA {
+            get {
+                return ResourceManager.GetString("LONGITUD_SEGUNDO_APELLIDO_EXCEDIDA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La cantidad de caracteres para el Segundo Nombre excede la permitida (50)..
+        /// </summary>
+        internal static string LONGITUD_SEGUNDO_NOMBRE_EXCEDIDA {
+            get {
+                return ResourceManager.GetString("LONGITUD_SEGUNDO_NOMBRE_EXCEDIDA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a No se ha podido encontrar el modelo..
+        /// </summary>
+        internal static string MODELO_NULO {
+            get {
+                return ResourceManager.GetString("MODELO_NULO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El Nombre del modelo no contiene caracteres válidos..
+        /// </summary>
+        internal static string NOMBRE_VACIO {
+            get {
+                return ResourceManager.GetString("NOMBRE_VACIO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El Primer Apellido del modelo no contiene caracteres válidos..
+        /// </summary>
+        internal static string PRIMER_APELLIDO_VACIO {
+            get {
+                return ResourceManager.GetString("PRIMER_APELLIDO_VACIO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El Primer Nombre del modelo no contiene caracteres válidos..
+        /// </summary>
+        internal static string PRIMER_NOMBRE_VACIO {
+            get {
+                return ResourceManager.GetString("PRIMER_NOMBRE_VACIO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La cantidad de caracteres para el Teléfono no coincide con la permitida (8)..
+        /// </summary>
+        internal static string TELEFONO_INCORRECTO {
+            get {
+                return ResourceManager.GetString("TELEFONO_INCORRECTO", resourceCulture);
+            }
+        }
     }
 }

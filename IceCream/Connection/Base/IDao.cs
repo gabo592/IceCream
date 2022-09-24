@@ -6,7 +6,7 @@ namespace Connection.Base
     /// Indica que una clase será la encargada de ejecutar el CRUD de los objetos del tipo especificado.
     /// </summary>
     /// <typeparam name="TModel">Tipo de objeto a crear un CRUD.</typeparam>
-    internal interface IDao<TModel> where TModel : new()
+    public interface IDao<TModel> where TModel : new()
     {
         /// <summary>
         /// Crea un nuevo registro en la base de datos del modelo de tipo especificado.
