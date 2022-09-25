@@ -106,6 +106,15 @@ namespace Common.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a La fecha del registro es mayor a la fecha actual..
+        /// </summary>
+        internal static string FECHA_INCORRECTA {
+            get {
+                return ResourceManager.GetString("FECHA_INCORRECTA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a El ID del modelo posee un valor no admitido por el sistema..
         /// </summary>
         internal static string ID_DEFAULT {

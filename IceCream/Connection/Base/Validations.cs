@@ -1,5 +1,6 @@
 ﻿using Common.Util;
 using Models.Interfaces;
+using System;
 
 namespace Connection.Base
 {
@@ -32,6 +33,15 @@ namespace Connection.Base
             if (model is IDateable dateable && (operation.Equals(Operations.CREATE) || operation.Equals(Operations.UPDATE)))
             {
                 if (dateable.Fecha == null) handler.Add("FECHA_DEFAULT");
+
+                DateTime fechaIncio = DateTime.Now.Date;
+                DateTime fechaFinal = dateable.Fecha.Date;
+
+                TimeSpan timeSpan = fechaFinal - fechaIncio;
+
+                int days = timeSpan.Days;
+
+                if (days > 0) handler.Add("FECHA_INCORRECTA");
             }
 
             if (model is IEmpleable empleable && (operation.Equals(Operations.CREATE) || operation.Equals(Operations.UPDATE)))

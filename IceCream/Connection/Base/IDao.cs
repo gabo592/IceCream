@@ -29,10 +29,10 @@ namespace Connection.Base
         TModel Update(TModel model);
 
         /// <summary>
-        /// Elimina un registro de la base de datos tomando en cuenta el ID del modelo.
+        /// Elimina un registro de la base de datos del tipo especificado.
         /// </summary>
-        /// <param name="id">Identificador único del modelo a eliminar.</param>
+        /// <param name="model">Modelo a eliminar</param>
         /// <returns>Modelo ya eliminado desde de la base de datos.</returns>
-        TModel Delete(int id);
+        TModel Delete(TModel model);
     }
 }

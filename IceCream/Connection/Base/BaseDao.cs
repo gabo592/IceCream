@@ -22,8 +22,8 @@ namespace Connection.Base
         /// <inheritdoc cref="IDao{TModel}.Create(TModel)"/>
         public abstract TModel Create(TModel model);
 
-        /// <inheritdoc cref="IDao{TModel}.Delete(int)"/>
-        public abstract TModel Delete(int id);
+        /// <inheritdoc cref="IDao{TModel}.Delete(TModel)"/>
+        public abstract TModel Delete(TModel model);
 
         /// <inheritdoc cref="IDao{TModel}.Read"/>
         public abstract IEnumerable<TModel> Read();

@@ -132,6 +132,9 @@
   <data name="FECHA_DEFAULT" xml:space="preserve">
     <value>El campo "Fecha" posee un valor no admitido por el sistema.</value>
   </data>
+  <data name="FECHA_INCORRECTA" xml:space="preserve">
+    <value>La fecha del registro es mayor a la fecha actual.</value>
+  </data>
   <data name="ID_DEFAULT" xml:space="preserve">
     <value>El ID del modelo posee un valor no admitido por el sistema.</value>
   </data>
