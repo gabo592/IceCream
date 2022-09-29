@@ -79,6 +79,7 @@
     <Compile Include="Inventario\MateriaPrimaDao.cs" />
     <Compile Include="Inventario\ProductoDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecursosHumanos\EmpleadoDao.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">

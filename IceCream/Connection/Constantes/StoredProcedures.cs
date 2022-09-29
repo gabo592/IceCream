@@ -48,5 +48,14 @@
         public const string ProductoDelete = "PRODUCTO_DELETE";
 
         #endregion
+
+        #region Empleado
+
+        public const string EmpleadoCreate = "EMPLEADO_CREATE";
+        public const string EmpleadoRead = "EMPLEADO_READ";
+        public const string EmpleadoUpdate = "EMPELADO_UPDATE";
+        public const string EmpleadoDelete = "EMPLEADO_DELETE";
+
+        #endregion
     }
 }
