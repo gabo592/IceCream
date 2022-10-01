@@ -57,5 +57,25 @@
         public const string EmpleadoDelete = "EMPLEADO_DELETE";
 
         #endregion
+
+        #region Seguridad
+
+        public const string DetalleUsuarioCreate = "DETALLE_USUARIO_CREATE";
+        public const string DetalleUsuarioRead = "DETALLE_USUARIO_READ";
+        public const string DetalleUsuarioUpdate = "DETALLE_USUARIO_UPDATE";
+        public const string DetalleUsuarioDelete = "DETALLE_USUARIO_DELETE";
+
+        public const string RolCreate = "ROL_CREATE";
+        public const string RolRead = "ROL_READ";
+        public const string RolUpdate = "ROL_UPDATE";
+        public const string RolDelete = "ROL_DELETE";
+
+        public const string UsuarioCreate = "USUARIO_CREATE";
+        public const string UsuarioRead = "USUARIO_READ";
+        public const string UsuarioUpdate = "USUARIO_UPDATE";
+        public const string UsuarioDelete = "USUARIO_DELETE";
+        public const string UsuarioLogin = "USUARIO_LOGIN";
+
+        #endregion
     }
 }

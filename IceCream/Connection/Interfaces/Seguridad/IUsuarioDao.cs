@@ -29,5 +29,13 @@ namespace Connection.Interfaces.Seguridad
         /// <param name="idEmpleado">Identificador único del Empleado.</param>
         /// <returns>Colección de objetos de tipo Usuario que resulten de la búsqueda.</returns>
         IEnumerable<Usuario> GetByIdEmpleado(int idEmpleado);
+
+        /// <summary>
+        /// Realiza la verificación de acceso de un usuario al sistema, tomando en cuenta el nombre de usuario y la contraseña o clave.
+        /// </summary>
+        /// <param name="nombre">Nombre de usuario.</param>
+        /// <param name="clave">Clave o contraseña del usuario.</param>
+        /// <returns>Objeto de tipo Usuario que sea válido con las credenciales introducidas.</returns>
+        Usuario Login(string nombre, string clave);
     }
 }
