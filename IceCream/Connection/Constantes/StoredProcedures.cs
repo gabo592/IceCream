@@ -77,5 +77,13 @@
         public const string UsuarioLogin = "USUARIO_LOGIN";
 
         #endregion
+
+        #region
+
+        public const string DepartamentoRead = "DEPARTAMENTO_READ";
+
+        public const string MunicipioRead = "MUNICIPIO_READ";
+
+        #endregion
     }
 }

@@ -83,6 +83,8 @@
     <Compile Include="Seguridad\DetalleUsuarioDao.cs" />
     <Compile Include="Seguridad\RolDao.cs" />
     <Compile Include="Seguridad\UsuarioDao.cs" />
+    <Compile Include="Ubicacion\DepartamentoDao.cs" />
+    <Compile Include="Ubicacion\MunicipioDao.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
